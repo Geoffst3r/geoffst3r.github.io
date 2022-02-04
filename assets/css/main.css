@@ -2756,6 +2756,17 @@ input, select, textarea {
 					color: #b7eadc;
 				}
 
+				#header > footer .icons li a:hover::after {
+					background: #777;
+					color: #fff;
+					content: attr(id);
+					padding: 0px 5px;
+					border-radius: 5px;
+					position: fixed;
+					width: auto;
+					transform: translate(-2.5em, -2em);
+				}
+
 		#header > nav {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
